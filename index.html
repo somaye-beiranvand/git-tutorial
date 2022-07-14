@@ -10,20 +10,11 @@
 </head>
 <body>
     <div class="container">
+        <h1 class="fs-3">آموزش گیت</h1>
         <ul>
-            <li>قبل از هر چیزی باید تو سایت
-                <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home">'گیت هاب</a>
-                ثبت نام کنید
-                <span class="d-block">
-                    برای این کار فقط کافیه یه ایمیل داشته باشید
-                    بعد از کلیک روی لینک بالا ایمیل خودتون رو وارد کنید، در
-                    مرحله بعد یه پسورد بدین
-                    به همین راحتی ثبت نام شما انجام می شه.
-                </span>
-            </li>
             <li>
-                حالا وقتشه که 
-                <a href="https://git-scm.com/downloads">برنامه گیت</a>
+                قبل از هر چیزی
+                <a class="link-success" href="https://git-scm.com/downloads">برنامه گیت</a>
                 رو دانلود کنید
                 <span class="d-block">
                     تنظیمات خاصی نداره فقط با کلیک کردن رو دکمه
@@ -36,11 +27,117 @@
                  Git Bash Here
                 همونطور که توی شکل نشون داده شده اضافه شده،
                 روش کلیک کنید 
-                <img src="images/git-1.png" class="img-thumbnail mx-auto d-block" alt="" style="width: 600px;">                                
+                <img src="images/git-1.png" class="img-thumbnail mx-auto d-block mt-5" alt="" style="width: 600px;">                                
             </li>
-            
+            <li>
+                در صفحه ای که باز می شه طبق شکل دستور 
+                <span>git init</span>
+                رو وارد کنید تا مخزنی که قراره ورژن های مختلف پروژتون رو ذخیره کنه ایجاد شه
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-2.png" alt="" style="width: 600px;">
+            </li>
+            <li>
+                دستور 
+                <span>git status</span>
+                نشون می ده چه فایل هایی تازه به پروژه تون اضافه شده، چه تغییراتی در پروژه ایجاد کردین،
+                <br>
+                تصویر پایین نشون می ده پوشه های 
+                css،
+                images،
+                و فایل
+                index.html
+                به تازگی ایجاد شدن و هنوز توسط 
+                git
+                دنبال نمی شن
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-3.png" alt="" style="width: 600px;">
+            </li>
+            <li>
+                دستور 
+                <span dir="ltr" class="px-2">
+                    git add .
+                </span>
+                باعث می شه فایل ها و پوشه ها تحت نظر گیت قرار بگیرن
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-4.png" alt="" style="width: 600px;">
+            </li>
+            <li>
+                حالا اگه
+                git status
+                بگیریم با حالت زیر مواجه می شیم
+                که این یعنی حالا این فایل ها تحت نظر گیت هستند و تغییرات شون توسط گیت دنبال می شه ولی برای نهایی کردن تغییرات هنوز یه مرحله دیگه داریم
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-6.png" alt=""  style="width: 600px;">
+            </li>
+            <li>
+                با دستور
+                <span dir="ltr" class="mx-2">
+                    git commit -m "your message"
+                </span>
+                تغییرات نهایی ثبت می شن، داخل دابل کوتیشن باید یه توضیح در مورد تغییری که دادین بنویسید تا بعدا تو یادآوری 
+                تغییراتی که تو هر مرحله دادین کمک تون کنه
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-7.png" alt="" style="width: 600px;">
+            </li>
+            <li>
+                حالا اگه 
+                <span>git status</span>
+                بگیریم، می گه درخت کاری شما خالی شده و چیز جدیدی برای ذخیره و ثبت وجود نداره
+                یادتون باشه که همیشه اول 
+                <span>git add</span>
+                و بعد
+                <span>git commit</span>
+                رو استفاده می کنیم
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-8.png" alt="" style="width: 600px;">
+            </li>
+            <li>
+                با دستور
+                <span>git log</span>
+                می تونیم 
+                commit
+                هایی که انجام دادیم رو ببینیم
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/git-9.png" alt="" style="width: 600px;">
+            </li>            
         </ul>
-        
+        <h1 class="fs-3">آموزش گیت هاب</h1>
+        <ul>
+            <li>حالا نوبت به ثبت نام تو سایت
+                <a href="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home">
+                    گیت هاب
+                </a>
+                می رسه
+                <span class="d-block">
+                    برای این کار فقط کافیه یه ایمیل داشته باشید
+                    بعد از کلیک روی لینک بالا ایمیل خودتون رو وارد کنید، در
+                    مرحله بعد یه پسورد بدین
+                    به همین راحتی ثبت نام شما انجام می شه.
+                </span>
+            </li>
+            <li>
+                برای آپلود پروژه ایمیلی که باهاش ثبت نام کردین ازتون خواسته می شه
+                با این دستور واردش کنید
+                <img  class="img-thumbnail mx-auto d-block mt-5" src="images/github1.png" alt="">                
+            </li>
+            <li>
+                وارد اکانت گیت هاب تون بشید
+                روی علامت بعلاوه کنار عکس پروفایل تون کلیک کنید
+                گزینه
+                <span>new repository</span>
+                رو انتخاب کنید
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/img_github_new_repo.png" alt="">
+            </li>
+            <li>
+                یک اسم برای پروژه تون انتخاب کنید و روی گزینه 
+                create repository
+                بزنید
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/img_github_new_repo.png" alt="">
+            </li>
+            <li>                
+                یه صفحه باز می شه با همچین دستوراتی
+                اونا رو عینا تو خط فرمان گیت که قبلا باهاش کار کردیم وارد کنید
+                و با این روش پروژتون رو تو گیت هاب push کنید
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/github2.png" alt="">
+            </li>
+            <li>
+                تبریک می گم شما موفق شدین پروژتون رو تو گیت هاب آپلود کنید و به پروژتون به این شکل نمایش داده می شه
+                <img class="img-thumbnail mx-auto d-block mt-5" src="images/img_github_merged.png" alt="">
+            </li>
+        </ul>        
     </div>
 </body>
 </html>
